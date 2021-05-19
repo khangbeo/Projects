@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #40514E;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem; /* 16px = 100% = 1em
+  5.625rem: refers to root em, ignore the parent's font size
+  and set its own size without adding on top of parent's size*/
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem; /* i got this with 40px/16px = 2.5rem*/
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1a9985;
+}
+
+.intro {
+  width: 25%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #11999E;
+  width: 20%;
+  margin: 15px;
+}
+
+a:hover {
+  color: #faf3f3;
+}
+
+hr {
+  border-top: 5px dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+
+.top-container {
+  background-color: #faf3f3;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 50px;
+}
+.bottom-container {
+  background: #66BFBF;
+  padding: 50px 0 20px;
+  padding: 30px;
+}
+
+
+
+.trademark {
+  color: #EAF6F6;
+  font-weight: normal;
+  font-size: 16px;  padding-top: 20px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 300px;
+}
+
+.profile-image {
+  max-width: 100%;
+  height:auto;
+}
+
+.pencil-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.CONTACT_ME {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 21px;
+   line-height: 21px;
+   color: #FFFFFF;
+   font-family: "Roboto", sans-serif;
+   width: 118px;
+   font-size: 15px;
+   font-weight: normal;
+   padding: 11px;
+   background-color: #66BFBF;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px auto 0 auto;
+}
+
+.CONTACT_ME:hover {
+   border: solid #18498F 0;
+   background: #0696B7;
+
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
