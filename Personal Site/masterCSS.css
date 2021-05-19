@@ -1,0 +1,88 @@
+header {
+  background-color: #bdedff;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #bdedff;
+}
+
+p {
+  color: black;
+}
+
+html {
+  font-family: 'Oswald', sans-serif;
+  background-color: #bdedff;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
+}
+a:hover {
+  color: pink;
+}
+div {
+  background-color: white;
+}
+h1 {
+  color: black;
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+/*These are for contact me
+move these later*/
+.format {
+  line-height: 35px;
+  padding: 20px;
+  background-color: #bdedff;
+  color: teal;
+}
+
+/* HOBBIES */
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink; grid-row: 2/4;}
+.d5{background:PaleGreen;}
+.d6{background:Crimson;}
+.d7{background:Gray;}
+.d8{background:black;}
+
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+      "header header header"
+      "advert content content"
+      "advert footer footer";
+  }
