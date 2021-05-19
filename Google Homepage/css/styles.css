@@ -1,0 +1,92 @@
+.top-nav {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+html {
+  font-family: 'arial', sans-serif;
+  font-size: 13px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #5c5c5c;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+.float-right {
+  float: right;
+}
+.sign-in {
+  background-color: #217eff;
+  border-radius: 3px;
+}
+input {
+  margin: 10px;
+}
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-align: center;
+  padding: 30px;
+}
+footer {
+  margin-left: -8px;
+  border-top: solid;
+  border-width: thin;
+  border-color: lightgray;
+  background-color: #ebebeb;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 6px;
+
+}
+input {
+  height: 40px;
+  margin-left: 1px;
+  margin-bottom: 20px;
+}
+.text-width {
+  width: 600px;
+  border-radius: 20px;
+  border-width: thin;
+  border-color: lightgray;
+  border-style: solid;
+
+}
+.button-style {
+  border-radius: 5px;
+  border-width: thin;
+  border-color: lightgray;
+  border-style: none;
+}
+.button-style:hover {
+
+}
+img {
+  margin-bottom: 20px;
+}
+.sign-in-text-color {
+  color: white;
+}
+.sign-in-text-color:hover {
+  text-decoration: none;
+}
